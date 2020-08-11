@@ -448,23 +448,23 @@ console.log(rect1);
 
 
 
-const integer_list = [1, 1, 2 ,3 ,1 ,2 ,3 ,4];
-const values_list = [1, 3];
+// const integer_list = [1, 1, 2 ,3 ,1 ,2 ,3 ,4];
+// const values_list = [1, 3];
 
-Array.prototype._removeEl = function (sourseArr, removableItems) {
+// Array.prototype._removeEl = function (sourseArr, removableItems) {
 
-    let resArr = sourseArr.filter((elem2) => {
-        return !removableItems.includes(elem2);
-    });
-    return resArr;
-};
+//     let resArr = sourseArr.filter((elem2) => {
+//         return !removableItems.includes(elem2);
+//     });
+//     return resArr;
+// };
 
-let l = new Array();
+// let l = new Array();
 
 
-console.group('Codewars');
-console.log(l._removeEl(integer_list, values_list));
-console.groupEnd('Codewars');
+// console.group('Codewars');
+// console.log(l._removeEl(integer_list, values_list));
+// console.groupEnd('Codewars');
 
 
 
